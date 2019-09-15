@@ -6,15 +6,21 @@ Include your responses to the bold questions below. Include snippets of code tha
 
 **Take a picture of your soldered panel and add it here!**
 
+![Image1](https://github.com/ZhenweiZhang1995/IDD-Fa19-Lab2/blob/master/lab2_1.jpeg)
+
 ## Part B. Writing to the LCD
  
-**a. What voltage level do you need to power your display?**
+**a. What voltage level do you need to power your display?**  
+5V
 
-**b. What voltage level do you need to power the display backlight?**
+**b. What voltage level do you need to power the display backlight?**  
+3.3V
    
 **c. What was one mistake you made when wiring up the display? How did you fix it?**
+I only connect the long breadboard vertically on one side and forget the other side beneath the LCD panel. I later figured that out and connected them.
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**
+`lcd.print("hello, world!");`
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
 

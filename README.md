@@ -29,12 +29,13 @@ Change "hello world" to "Zhenwei"
 
 ## Part C. Using a time-based digital sensor
 
-**Upload a video of your working rotary encoder here.**
-
+**Upload a video of your working rotary encoder here.**  
+[Link to video](https://youtu.be/hi7m0yVBmh4)
 
 ## Part D. Make your Arduino sing!
 
-**a. How would you change the code to make the song play twice as fast?**
+**a. How would you change the code to make the song play twice as fast?**  
+Change `int noteDuration = 1000 / noteDurations[thisNote];` to `int noteDuration = 1000 / noteDurations[thisNote]/2;` (Decrease noteDuration by half)
  
 **b. What song is playing?**
 

@@ -16,13 +16,15 @@ Include your responses to the bold questions below. Include snippets of code tha
 **b. What voltage level do you need to power the display backlight?**  
 3.3V
    
-**c. What was one mistake you made when wiring up the display? How did you fix it?**
+**c. What was one mistake you made when wiring up the display? How did you fix it?**  
 I only connect the long breadboard vertically on one side and forget the other side beneath the LCD panel. I later figured that out and connected them.
 
 **d. What line of code do you need to change to make it flash your name instead of "Hello World"?**  
-`lcd.print("hello, world!");`
+`lcd.print("hello, world!");`  
+Change "hello world" to "Zhenwei" 
  
 **e. Include a copy of your Lowly Multimeter code in your lab write-up.**
+[Multimeter code](https://github.com/ZhenweiZhang1995/IDD-Fa19-Lab2/blob/master/Multimeter.ino)
 
 
 ## Part C. Using a time-based digital sensor

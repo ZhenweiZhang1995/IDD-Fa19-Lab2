@@ -37,11 +37,14 @@ Change "hello world" to "Zhenwei"
 **a. How would you change the code to make the song play twice as fast?**  
 Change `int noteDuration = 1000 / noteDurations[thisNote];` to `int noteDuration = 1000 / noteDurations[thisNote]/2;` (Decrease noteDuration by half)
  
-**b. What song is playing?**
+**b. What song is playing?**  
+Star Wars
 
 
 ## Part E. Make your own timer
 
-**a. Make a short video showing how your timer works, and what happens when time is up!**
+**a. Make a short video showing how your timer works, and what happens when time is up!**  
+[Link to video](https://youtu.be/F6-uaFP1Uyg)  
+I made a countdown clock. It will show how much time is left on the LCD screen. The alarm is set to 30s when it starts. And by turning the encoder, users can add time to the clock. When time is up, the speaker will play Star Wars music. 
 
 **b. Post a link to the completed lab report your class hub GitHub repo.**
